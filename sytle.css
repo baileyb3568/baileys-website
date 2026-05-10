@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #111;
+  background: linear-gradient(to bottom, #111, #222);
   color: white;
   font-family: Arial;
 }
@@ -43,13 +43,28 @@ nav a {
 }
 
 button {
-  padding: 15px 30px;
+padding: 15px 35px;
+
   border: none;
+
   background: cyan;
+
   font-size: 18px;
+
+  border-radius: 10px;
+
   cursor: pointer;
+
+  transition: 0.3s;
 }
 
 button:hover {
   background: white;
+.hero-image {
+  width: 90%;
+  max-width: 1200px;
+
+  margin-top: 40px;
+
+  border-radius: 20px;
 }
