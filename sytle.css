@@ -60,11 +60,4 @@ padding: 15px 35px;
 
 button:hover {
   background: white;
-.hero-image {
-  width: 90%;
-  max-width: 1200px;
-
-  margin-top: 40px;
-
-  border-radius: 20px;
 }
